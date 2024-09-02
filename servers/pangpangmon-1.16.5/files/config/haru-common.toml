@@ -1,0 +1,26 @@
+
+[general]
+	config-version = 1
+
+[config]
+
+	[config.ability-scroll]
+		#The probability that Ability Scroll will be failed.
+		#Range: 0 ~ 100
+		basic-failure = 80
+		#The probability that Advanced Ability Scroll will be destroyed if it fails.
+		#Range: 0 ~ 100
+		advanced-destroy = 1
+		#The probability that Darkened Ability Scroll will be destroyed if it fails.
+		#Range: 0 ~ 100
+		darkened-destroy = 5
+		#The probability that Ability Scroll will be destroyed if it fails.
+		#Range: 0 ~ 100
+		basic-destroy = 0
+		#The probability that Advanced Ability Scroll will be failed.
+		#Range: 0 ~ 100
+		advanced-failure = 60
+		#The probability that Darkened Ability Scroll will be failed.
+		#Range: 0 ~ 100
+		darkened-failure = 50
+
